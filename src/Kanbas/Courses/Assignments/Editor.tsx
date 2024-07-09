@@ -16,33 +16,33 @@ export default function AssignmentEditor() {
               <input id="wd-points" value={100} /><br/>
             </td>
             </tr>
-                <label htmlFor="wd-select-one-genre"> Assignment Group: </label><br/>
-                <select id="wd-select-one-genre">
+                <label htmlFor="wd-group"> Assignment Group: </label><br/>
+                <select id="wd-group">
                 <option value="ASSIGNMENTS">ASSIGNMENTS</option>
             </select><br/>
-                <label htmlFor="wd-select-one-genre"> Display Grade as: </label><br/>
-                <select id="wd-select-one-genre">
+                <label htmlFor="wd-display-grade-as"> Display Grade as: </label><br/>
+                <select id="wd-display-grade-as">
                 <option value="Percentage">Percentage</option>
             </select><br/>
-                <label htmlFor="wd-select-one-genre"> Submission Type: </label><br/>
-                <select id="wd-select-one-genre">
+                <label htmlFor="wd-submission-type"> Submission Type: </label><br/>
+                <select id="wd-submission-type">
                 <option value="Online">Online</option>
             </select><br/>
             <label>Online Entry Options:</label><br/>
 
-<input type="checkbox" name="check-genre" id="wd-Text Entry"/>
+<input type="checkbox" name="text-entry" id="wd-Text Entry"/>
 <label htmlFor="wd-Text Entry">Text Entry</label><br/>
 
-<input type="checkbox" name="check-genre" id="wd-Website URL"/>
-<label htmlFor="wd-Website URL">Website URL</label><br/>
+<input type="checkbox" name="website-url" id="wd-website-url"/>
+<label htmlFor="wd-website-url">Website URL</label><br/>
 
-<input type="checkbox" name="check-genre" id="wd-media-recordings"/>
+<input type="checkbox" name="media-recordings" id="wd-media-recordings"/>
 <label htmlFor="wd-media-recordings">Media Recordings</label><br/>
 
-<input type="checkbox" name="check-genre" id="wd-student-annotation"/>
+<input type="checkbox" name="student-annotation" id="wd-student-annotation"/>
 <label htmlFor="wd-student-annotation">Student Annotation</label><br/>
 
-<input type="checkbox" name="check-genre" id="wd-file-upload"/>
+<input type="checkbox" name="file-upload" id="wd-file-upload"/>
 <label htmlFor="wd-file-upload">File-Uploads</label><br/>
 
 <label htmlFor="wd-assign-to"> Assign Assign to: </label>
