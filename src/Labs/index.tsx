@@ -4,10 +4,12 @@ import TOC from "./TOC";
 import Lab2 from "./Lab2";
 import Lab3 from "./Lab3";
 export default function Labs() {
-  return (
-    <div>
-      <h2>Keyan Shen</h2>
-      <h2>Section 1</h2>
+   return (
+      <div id="wd-images">
+       <h3>Keyan Shen</h3>
+       <h3>Section 1</h3>
+     <br />
+     <img id="wd-teslabot" src="images/image.png" height="200px" />
       <h1>Labs</h1>
       <TOC />
       <Routes>
